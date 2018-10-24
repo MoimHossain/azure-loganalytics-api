@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogAnalytics", "LogAnalytics\LogAnalytics.csproj", "{D44C1D90-DD00-43E2-8FDB-62560AA16977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{BADCF1A3-8D63-49A9-A103-B2030C5573E7}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D44C1D90-DD00-43E2-8FDB-62560AA16977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44C1D90-DD00-43E2-8FDB-62560AA16977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44C1D90-DD00-43E2-8FDB-62560AA16977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44C1D90-DD00-43E2-8FDB-62560AA16977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16A6DF7B-86CE-4ED0-845F-96105A126925}
+	EndGlobalSection
+EndGlobal
