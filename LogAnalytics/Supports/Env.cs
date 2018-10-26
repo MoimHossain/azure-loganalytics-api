@@ -16,6 +16,7 @@ namespace LogAnalytics.Supports
             public const string ClientID = "ClientID";
             public const string ClientSecret = "ClientSecret";
             public const string LogAnalyticsWorkspaceID = "LogAnalyticsWorkspaceID";
+            public const string LogAnalyticsPrimaryKey = "LogAnalyticsPrimaryKey";
         }
 
         public static string GetEnvironmentVariable(string key)
