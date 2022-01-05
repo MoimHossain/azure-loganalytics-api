@@ -1,14 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogAnalytics", "LogAnalytics\LogAnalytics.csproj", "{D44C1D90-DD00-43E2-8FDB-62560AA16977}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker", "Docker", "{BADCF1A3-8D63-49A9-A103-B2030C5573E7}"
-	ProjectSection(SolutionItems) = preProject
-		Dockerfile = Dockerfile
-	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laapi", "Console-App\Laapi\Laapi.csproj", "{DF740AF5-E31F-46E5-AA1C-C5410380D9A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +19,10 @@ Global
 		{D44C1D90-DD00-43E2-8FDB-62560AA16977}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D44C1D90-DD00-43E2-8FDB-62560AA16977}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D44C1D90-DD00-43E2-8FDB-62560AA16977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF740AF5-E31F-46E5-AA1C-C5410380D9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF740AF5-E31F-46E5-AA1C-C5410380D9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF740AF5-E31F-46E5-AA1C-C5410380D9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF740AF5-E31F-46E5-AA1C-C5410380D9A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
